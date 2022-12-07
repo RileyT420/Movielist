@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+      <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Movie list</h1>
+          <p>movies</p>
+
+          <form id="search-movies">
+            <input type="text" placeholder="Search movies..." />
+          </form>
+            </div>
+        </header>
+        <div id="movie-list">
+            <h2 class="title">movie to Read</h2>
+            <ul>
+                <li>
+                    <span class="name">Avengers end game</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Star Wars</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">IT</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Halloween</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-movie">
+            <input type="checkbox" id="hide"/>
+            <label for="hide">Hide all movies</label>
+            <input type="text" placeholder=" movies" />
+            <button>Add</button>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
